@@ -1,0 +1,32 @@
+.maincontent{
+    width: 450px; 
+    text-align: center;
+    color: white;
+
+}
+.body {
+    text-align: center;
+    color: white;
+}
+*{background-color: pink;}
+
+.quote{
+    text-align: center;
+    color: white;
+}
+
+.list{
+    text-align: center;
+    color: black;
+    
+}
+
+image{
+    align-items: center;
+}
+
+.quote2{
+    width: 400px;
+    text-align: center;
+   color: white;
+}
