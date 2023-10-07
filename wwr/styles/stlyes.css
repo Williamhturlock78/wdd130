@@ -6,4 +6,6 @@ body
 {
     text-align: center;
 }
-
+div{
+    max-width: 1600px;
+}
