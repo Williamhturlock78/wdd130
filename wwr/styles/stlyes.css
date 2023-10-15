@@ -1,8 +1,13 @@
 
-Fjalla_One/FjallaOne-Regular:@import
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display&display=swap');
 body
 {
     background-color: #E7C24F;
+    font-family: Playfair Display;
+    font-size: 22px;
+    margin:0;
+    padding:0;
 }
 div{
     max-width: 1600px;
@@ -17,11 +22,13 @@ header {
 nav a:hover {
     background-color: #E7C24F;
     color: #A43312;
+    text-align: center;
 
 }
 
 .home-title{
 color: #A43312;
+text-align: center;
 }
 
 nav a{
@@ -40,6 +47,7 @@ footer a{
     text-align: center;
     color: #A43312;
     text-align: none;
+    
 }
 
 h4{
@@ -49,4 +57,78 @@ h4{
 
 .icon{
     width: 80px;
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding: 10px;
 }
+
+.home-title {
+    font-family: 'Fjalla One';
+    font-size: 2em;
+}
+
+image{
+    text-align: center;
+}
+
+.book{
+    font-family: 'Playfair Display'; font-size: 18px;
+        text-decoration: none;
+        color:#A43312;
+        text-align: center;
+        padding: 15px;
+          
+}
+.join{
+    font-family: 'Playfair Display'; font-size: 18px;
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding: 30px;
+}
+.msg p{
+    font-family: 'Fjalla One';
+    font-size: .8em;
+}
+.msg {
+    background-color: #E7C24F;
+    line-height: 1.5em;
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding: 35px;
+  }
+  h2{
+    margin:0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding: 35px;
+}
+
+#Logo_link {
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding: 35px;
+}
+
+footer{
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding: 25px, 50px;
+}
+
+footer .social img{
+    text-decoration: none;
+    color:#A43312;
+    text-align: center;
+    padding-top: 15px;
+}
+      
+       
