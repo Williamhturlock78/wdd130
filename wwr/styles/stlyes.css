@@ -37,11 +37,7 @@ nav a{
     text-decoration: none;
 }
 
-.book{
-    text-align: center;
-    color: #A43312;
-    text-decoration: none;
-}
+
 
 footer a{
     text-align: center;
@@ -66,6 +62,7 @@ h4{
 .home-title {
     font-family: 'Fjalla One';
     font-size: 2em;
+    margin-top: 10px;
 }
 
 image{
@@ -78,6 +75,7 @@ image{
         color:#A43312;
         text-align: center;
         padding: 15px;
+        margin-top: 50px;
           
 }
 .join{
@@ -86,6 +84,7 @@ image{
     color:#A43312;
     text-align: center;
     padding: 30px;
+    margin-top: 50px;
 }
 .msg p{
     font-family: 'Fjalla One';
@@ -122,6 +121,7 @@ footer{
     color:#A43312;
     text-align: center;
     padding: 25px, 50px;
+    margin-top: 200px;
 }
 
 footer .social img{
@@ -131,4 +131,12 @@ footer .social img{
     padding-top: 15px;
 }
       
-       
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
