@@ -35,7 +35,7 @@ row-gap: 20px;
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
   column-gap: 0px;
 
 }
@@ -44,24 +44,28 @@ row-gap: 20px;
   height: 100px; 
   background-color: red; 
   grid-column: 1/2;
+  z-index: 10;
 } 
 .green2 { 
   width: 100px; 
   height: 100px; 
   background-color: green; 
   grid-column: 2/3;
+  z-index: 12;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
   grid-column: 3/4;
+  z-index: 15;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
   grid-column: 4/5;
+  z-index: 20;
 } 
 /* Activity 3 styles */ 
 .content3 {
@@ -153,10 +157,12 @@ grid-column: 2/3;
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+
 }
 .red6 {
-  width: 100px; 
-  height: 100px; 
+  width: 70%; 
+  height: 200px; 
   background-color: red; 
 } 
 .green6 {
