@@ -162,4 +162,7 @@ main section img{
     box-sizing: border-box;
 }
 
-
+#hero {
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+}
