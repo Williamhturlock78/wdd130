@@ -18,6 +18,8 @@ div{
 }
 header {
     background-color: #E7C24F;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -38,8 +40,16 @@ nav a{
     text-decoration: none;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 
-
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 footer a{
     text-align: center;
     color: #A43312;
@@ -151,4 +161,5 @@ footer .social img{
 main section img{
     box-sizing: border-box;
 }
+
 
