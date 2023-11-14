@@ -10,41 +10,49 @@
     <div id="content">
     <header>
     <img src="images/logo.png" alt="logo" class="logo">
-    <nav><a href="index.html">Home</a> <a href="#">Page 2</a> <a href="site-plan-rafting.html">Site Plan</a> <a href="contactus.html">Contact Us</a></nav>
+    <nav><a href="index.html">Home</a> <a href="page2.html">Page 2</a> <a href="site-plan-rafting.html">Site Plan</a> <a href="contactus.html">Contact Us</a></nav>
 </header>
 <main>
 <body>
-    <div>
-  About Us:
+    <div id="feedback"></div>
+    <form action="/my-handling-form-page" method="post"></form>
+    <style>
+        #feedback{
+            background-color: antiquewhite;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: .5em;
+            display: none;
 
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eius explicabo tenetur ex nihil id temporibus, autem animi modi odio, amet nobis itaque voluptatibus minus, nostrum aspernatur tempora. Nisi, iure.
-</div>
-<div>
-  <b>
-    Contact Information:
-   </div>
-   <div>
-   Phone Number: 
-</div>
-<div>
-   Email: 
-   </div>
-   <div>
-   Find a Location Near You:
-   </b>
-</div>
-<div>
-<img src="images/ai sad woman on phone in raft.png" alt="">
-</div>
-<div class="ai-image-one">
-<img src="images/ai image sad man in raft.png" alt="ai-image-one">
-</div>
-<div>
-<img src="images/ai raft using computer.png" alt="">
-</div>
+        }
+
+        .moveDown{
+            margin-top: 3em;
+        }
+
+    </style>
+    
+<script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+</script>
 </body>
 </html>
-</main>
 <footer>
     <p>Dry Oar &copy; 2023 - William Harris</p>
     <p><a href="site-plan-rafting.html">Site Plan</a></p>
