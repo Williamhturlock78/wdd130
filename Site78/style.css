@@ -101,8 +101,8 @@ body {
     color: var(--nav-link-color);
   }
   nav a:hover {
-    color: var(#ED6A5A);
-    background-color: var(#ac73ac);
+    color: var(white);
+    background-color: var(#ED6A5A);
   }
   
   .sitemap {
