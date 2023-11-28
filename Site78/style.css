@@ -62,10 +62,10 @@ body {
   }
   
   .primary {
-    background-color: var(--primary-color);
+    background-color: var(#9CF6F6);
   }
   .secondary {
-    background-color: var(--secondary-color);
+    background-color: var(#ED6A5A);
   }
   .accent1 {
     background-color: var(--accent1-color);
@@ -80,7 +80,7 @@ body {
   }
   
   nav {
-    background-color: var(--nav-background-color);
+    background-color: var(#ED6A5A);
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
