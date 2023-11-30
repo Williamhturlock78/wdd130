@@ -43,7 +43,7 @@ body {
   }
   
   p {
-    font-family: var(--paragraph-font);
+    font-family: var(--'Times New Roman', Times, serif;);
     color: var(--paragraph-color-on-white);
     padding: 1em;
   }
