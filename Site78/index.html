@@ -15,6 +15,8 @@
     <img src="images/quote finder.png" alt="logo" class="logo">
     <nav><a href="index.html">Home</a> <a href="findquote.html">Find a Quote</a> <a href="siteplan.html">Site Plan</a> <a href="submitquote.html">Submit a Quote</a></nav>
     </header>
+
+    
     Find a Quote: <a href="findquote.html">Find a Quote</a>
     
     Submit a Quote: <a href="SubmitQuote.html">Submit a Quote</a>
@@ -54,6 +56,68 @@ Why else would you want your quotes posted here? So random people you're never g
 About the creator:
 
 I'm a Web Design and Development major. I love people, and I think collecting funny things your friends say is a great way to get closer with them. I'm also really inspired by the people in my life, and feel that they often say things that really help me through the trials I am experiencing.
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+
+</body>
+</html>
+
 <img src="images/laughing and talking stock photo 2.avif" alt="laugh" class="laugh">
 <img src="images/people laughing and talking lol.jpg" alt="laugh2" class="laugh2">
 <img src="images/woman-man-are-laughing-laughing_188544-17096.avif" alt="laugh3" class="laugh3">
